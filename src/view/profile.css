@@ -1,0 +1,32 @@
+.profile-pic{
+    /* width: 80% !important; */
+    width: inherit;
+    height: auto !important;
+    border-radius: 50% !important;
+}
+
+.profile-pic-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #FBBA72 !important;
+    padding: 5%;
+    border-radius: 20% !important;
+}
+
+.profile-details-card{
+    border: transparent !important;
+}
+
+.field{
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-pic-card{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+}

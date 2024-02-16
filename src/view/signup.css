@@ -1,0 +1,73 @@
+.signup-page{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/restaurant_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.container{
+    margin: 10vh 0;
+}
+
+.signup-form{
+    margin: 0.5cm;
+    border-radius: 2pc !important;
+}
+
+.signup-form-bg{
+    border-radius: 2pc !important;
+}
+.card{
+    border: 1rem solid #fbbb72db !important ;
+}
+
+.error-msg{
+    font-size: smaller ;
+}
+/* .form-control{
+    border-color: #ac0909 !important;
+    border-radius: 0 !important;
+    border-width: 0 0 3px 1px !important;
+} */
+
+/* .form-control:hover{
+    border-color: #953200 !important;
+    box-shadow: inset 0 1px 1px #953200 !important
+}
+
+.form-control:focus{
+    border-color: #953200 !important;
+    box-shadow: inset 0 1px 1px #953200 !important
+} */
+
+/* citations
+https://unsplash.com/photos/brown-wooden-dining-table-near-white-and-brown-mini-bar-jUOaONoXJQk
+
+https://www.w3schools.com/cssref/pr_background-image.php (for background img)
+
+bootstrap grid, cards, buttons, forms
+
+https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow
+
+https://stackoverflow.com/questions/24502898/show-or-hide-element-in-react
+
+https://plainenglish.io/blog/javascript-check-if-string-contains-only-letters-and-numbers-5dce23ddfecf
+
+https://stackoverflow.com/questions/64272432/react-router-redirect-to-another-page-when-fom-validate
+
+https://reactrouter.com/en/main/start/tutorial#jsx-routes
+ */
